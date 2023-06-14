@@ -20,7 +20,7 @@ export const OtherProjects = [
   {
     name: "Bookstore",
     description:
-      "The goal of the Bookstore backend created with Golang and MySQL is to provide a robust and efficient system for managing book-related operations, such as book inventory management, customer transactions, and order processing ",
+      "The goal of the Bookstore backend created with Golang and MySQL is to provide a robust and efficient system for managing book-related operations.",
     link: "https://github.com/AmanPachori/BookStore",
   },
 ];
