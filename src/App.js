@@ -1,5 +1,5 @@
 import "./App.css";
-import { useRef, React } from "react";
+import { useRef, React, useEffect, useState } from "react";
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import AboutMe from "./Sections/AboutMe";
@@ -9,7 +9,10 @@ import HomeSection from "./Sections/HomeSection";
 import ProjectsSection from "./Sections/ProjectsSection";
 import SkillSection from "./Sections/SkillSection";
 import ResponsiveNavbar from "./Components/ResponsiveNavbar";
+import Loader from "./Components/Loader";
 function App() {
+  const [showVideo, setShowVideo] = useState(true);
+
   const homeSectionRef = useRef(null);
   const aboutSectionRef = useRef(null);
   const skillsSectionRef = useRef(null);
@@ -17,8 +20,15 @@ function App() {
   const projectsSectionRef = useRef(null);
   const contactSectionRef = useRef(null);
 
+  useEffect(() => {
+    let timer1 = setTimeout(() => setShowVideo(false), 3000);
+    return () => {
+      clearTimeout(timer1);
+    };
+  }, []);
   return (
     <div className="font-mono bg-slateGrey h-full flex items-center flex-col">
+      {showVideo && <Loader />}
       <Navbar
         homeSectionRef={homeSectionRef}
         aboutSectionRef={aboutSectionRef}
