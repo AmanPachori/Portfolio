@@ -21,7 +21,7 @@ const Footer = () => {
           Aman <span className="text-white opacity-90">Pachori</span>
         </a>
         <p className="md:ml-10 text-sm text-gray-500 text-center">
-          © Aman Pcahori. All Rights Reserved
+          © Aman Pachori. All Rights Reserved
         </p>
       </div>
       <div className="flex items-center mt-7 md:mt-0">
