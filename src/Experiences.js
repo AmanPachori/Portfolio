@@ -1,7 +1,7 @@
 export const Experiences = [
   {
     direction: "right",
-    title: "Software Developer intern",
+    title: "Software Developer Intern",
     link: "https://www.tsaw.tech/",
     start: "June 2022",
     end: "August 2022",
