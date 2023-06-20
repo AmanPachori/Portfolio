@@ -1,6 +1,5 @@
 import React from "react";
 import { ImSpinner9 } from "react-icons/im";
-
 const Loader = () => {
   React.useEffect(() => {
     document.body.style.overflow = "hidden";
