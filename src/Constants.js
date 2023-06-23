@@ -9,6 +9,6 @@ export const ARTSTATIONURL = "";
 export const LOCATION_URL = "https://goo.gl/maps/";
 export const PROFILE_PHOTO_URL =
   "https://avatars.githubusercontent.com/u/84467090?v=4";
-export const LEETCODE_URL = "https://leetcode.com/batrakawaljeetsingh/";
+export const LEETCODE_URL = "";
 export const GEEKSFORGEEKS_URL = "";
 export const HACKERRANK_URL = "";
